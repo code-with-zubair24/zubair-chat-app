@@ -33,3 +33,8 @@ The project serves as an excellent learning resource for understanding concepts 
 Potential future enhancements include user authentication, private messaging, chat rooms, message persistence using a database, typing indicators, online/offline user status, file sharing, emoji support, and message notifications. These features can transform the application from a basic chat system into a more comprehensive communication platform.
 
 Overall, this Real-Time Chat Application successfully delivers a fast, responsive, and interactive messaging experience. By leveraging React.js, Node.js, Express.js, and WebSocket technology, the project provides a practical demonstration of modern real-time web application development principles while maintaining a clean architecture and an engaging user experience.
+
+
+## OUTPUT
+
+<img width="970" height="778" alt="Image" src="https://github.com/user-attachments/assets/5d068ec4-6cf6-43b2-a20b-2bcb1b2c279b" />
