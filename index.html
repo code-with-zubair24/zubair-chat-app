@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZUBAIR CHAT APP</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="app-shell">
+        <header class="app-header">
+            <div>
+                <div class="app-title">ZUBAIR CHAT APP</div>
+                <div class="app-subtitle">Real-time chat UI — type, send, and scroll naturally.</div>
+            </div>
+        </header>
+
+        <div class="chat-window">
+            <div class="chat-topbar">
+                <div class="tab-group">
+                    <div class="tab-label">Switch persona:</div>
+                    <div class="persona-tabs">
+                        <button type="button" class="persona-tab active" data-persona="person1">Person 1</button>
+                        <button type="button" class="persona-tab" data-persona="person2">Person 2</button>
+                    </div>
+                </div>
+                <div class="chat-meta"><span id="activePersonaLabel">Active: Person 1</span></div>
+            </div>
+
+            <div class="chat-messages" id="messages"></div>
+
+            <form class="chat-input" id="chatForm">
+                <button type="button" class="emoji-btn">😊</button>
+                <input type="text" id="input" placeholder="Write a message..." autocomplete="off">
+                <button type="submit" class="send-btn">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
